@@ -1,0 +1,32 @@
+{
+  "monstros": [
+    { "tipo":  "ghost", "x": 50, "y":  480, "velX":  0.9, "velY": 0, "largura":  50, "altura":  50 },
+    { "tipo":  "slime", "x": 650, "y":  380, "velX":  0.7, "velY": 0, "largura":  50, "altura":  50 }
+  ],
+  "recursos": [
+    { "nome": "moeda", "src":"/imagens/moeda.png" },
+    { "nome": "vida", "src":"/imagens/vida.png" },
+    { "nome": "slime", "src":"/imagens/slime.png" },
+    { "nome": "ghost", "src":"/imagens/ghost.png" },
+    { "nome": "spriteRun", "src":"/imagens/Run.png" },
+    { "nome": "spriteIdle", "src":"/imagens/Idle.png" },
+    { "nome": "spriteJump", "src":"/imagens/Jump.png" }
+  ],
+  "cenario": [
+    {"x":  0,"y": 530,"largura":800,"altura":70},
+    {"x":  650,"y": 430,"largura":100,"altura":30},
+    {"x":  0,"y": 330,"largura":100,"altura":30},
+    {"x":  950,"y": 460 ,"largura":200,"altura":70},
+    {"x":  1350,"y": 460,"largura":350,"altura":70}
+  ],
+  "itens": [
+
+    {"x": 100,"y": 240,"velY": 0.5,"largura": 40,"altura": 40,"nome": "moeda"},
+    {"x": 100,"y": 320,"velY": 0.5,"largura": 40,"altura": 40,"nome": "moeda"},
+    {"x": 100,"y": 400,"velY": 0.5,"largura": 40,"altura": 40,"nome": "moeda"},
+    {"x": 950,"y": 400,"velY": 0.5,"largura": 40,"altura": 40,"nome": "vida"}
+
+
+
+  ]
+}
